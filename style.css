@@ -521,6 +521,7 @@ body {
     object-fit: cover;
     opacity: .5;
     transition: opacity .5s;
+    /* box-shadow: 0 1.1rem 4rem rgba(0, 0, 0, .3); */
 }
 
 .gallery-img:hover {
@@ -632,3 +633,14 @@ body {
     background-color: #12376e;
 }
 /* end of contact */
+
+/* footer */
+.footer {
+    grid-column: 2 / 10;
+    grid-row: 9 / 10;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2rem 0 3rem 0;
+    color: #34598f;
+}
+/* end of footer */
